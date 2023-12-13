@@ -1,6 +1,6 @@
 import kotlin.math.log2
 fun main(){
-    var (n,k) = readLine()!!.split(' ').map({it.toInt()})
+    val (n,k) = readLine()!!.split(' ').map({it.toInt()})
     var x = 0
     var y = n-k
     if(k>n || (k==1 && isPowerOfTwo(n.toDouble())==0)){
